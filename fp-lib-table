@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name s2qfn80)(type KiCad)(uri ${KIPRJMOD}/footprints/s2qfn80.pretty)(options "")(descr ""))
+)
