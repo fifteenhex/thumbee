@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# xc6204xxxxMR
+#
+DEF xc6204xxxxMR U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "xc6204xxxxMR" 0 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 150 200 -300 0 1 0 N
+X vin 1 -300 50 100 R 50 50 1 1 W
+X vss 2 0 -400 100 U 50 50 1 1 w
+X ce 3 -300 -100 100 R 50 50 1 1 I
+X ~ 4 300 -100 100 L 50 50 1 1 N
+X vout 5 300 50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

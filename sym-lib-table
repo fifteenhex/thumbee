@@ -1,3 +1,7 @@
 (sym_lib_table
   (lib (name msc313e)(type Legacy)(uri /media/junk/hardware/thumbee/thumbee/symbols/msc313e.lib)(options "")(descr ""))
+  (lib (name ht42b534-1)(type Legacy)(uri ${KIPRJMOD}/symbols/ht42b534-1.lib)(options "")(descr ""))
+  (lib (name rt8059gj5)(type Legacy)(uri ${KIPRJMOD}/symbols/rt8059gj5.lib)(options "")(descr ""))
+  (lib (name spinor)(type Legacy)(uri ${KIPRJMOD}/symbols/spinor.lib)(options "")(descr ""))
+  (lib (name xc6204)(type Legacy)(uri ${KIPRJMOD}/symbols/xc6204.lib)(options "")(descr ""))
 )
