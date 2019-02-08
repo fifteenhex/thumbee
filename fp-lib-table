@@ -3,4 +3,5 @@
   (lib (name cd32)(type KiCad)(uri ${KIPRJMOD}/footprints/cd32.pretty)(options "")(descr ""))
   (lib (name wson8-8x6mm)(type KiCad)(uri ${KIPRJMOD}/footprints/wson8-8x6mm.pretty)(options "")(descr ""))
   (lib (name USB-MICRO-MK5P-2)(type KiCad)(uri ${KIPRJMOD}/footprints/USB-MICRO-MK5P-2.pretty)(options "")(descr ""))
+  (lib (name thumbee)(type KiCad)(uri ${KIPRJMOD}/footprints/thumbee.pretty)(options "")(descr ""))
 )
