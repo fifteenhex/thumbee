@@ -8,5 +8,7 @@ May move to some 0402 passives if not.
 
 ## bugs
 
-Pinout foobar. USB ground isn't wired up because of a difference in the pin number of the symbol
+Pinout foobar #1. USB ground isn't wired up because of a difference in the pin number of the symbol
 and the footprint. Fixed by shorting the id pin to ground next to it.
+
+Pinout foobar #2. avdd_nodie and dvdd_nodie are swapped.
