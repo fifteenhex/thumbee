@@ -41,8 +41,8 @@ X aud_miccm0 1 1150 -950 100 L 50 50 1 1 I
 X sar_gpio2 10 1150 -50 100 L 50 50 1 1 I
 X sar_gpio1 11 1150 -150 100 L 50 50 1 1 I
 X sar_gpio0 12 1150 -250 100 L 50 50 1 1 I
-X dvddd_nodie 13 350 2600 100 D 50 50 1 1 w
-X avdd_nodie 14 450 2600 100 D 50 50 1 1 W
+X avdd_nodie 13 350 2600 100 D 50 50 1 1 W
+X dvddd_nodie 14 450 2600 100 D 50 50 1 1 w
 X pm_sd_cdz 15 -1150 -2150 100 R 50 50 1 1 I
 X pm_irin 16 -1150 -2450 100 R 50 50 1 1 I
 X pm_reset 17 -1150 1550 100 R 50 50 1 1 I
