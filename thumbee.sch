@@ -234,12 +234,12 @@ Wire Wire Line
 $Comp
 L power:+3.3VA #PWR0107
 U 1 1 5C4EEA93
-P 2750 750
-F 0 "#PWR0107" H 2750 600 50  0001 C CNN
-F 1 "+3.3VA" H 2765 923 50  0000 C CNN
-F 2 "" H 2750 750 50  0001 C CNN
-F 3 "" H 2750 750 50  0001 C CNN
-	1    2750 750 
+P 2850 750
+F 0 "#PWR0107" H 2850 600 50  0001 C CNN
+F 1 "+3.3VA" H 2865 923 50  0000 C CNN
+F 2 "" H 2850 750 50  0001 C CNN
+F 3 "" H 2850 750 50  0001 C CNN
+	1    2850 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1252,11 +1252,11 @@ Text Label 700  3450 0    50   ~ 0
 spinor_sck
 Text Label 700  3550 0    50   ~ 0
 spinor_cs
-Text Label 700  3650 0    50   ~ 0
+Text Label 700  3850 0    50   ~ 0
 spinor_miso
 Text Label 700  3750 0    50   ~ 0
 spinor_wp
-Text Label 700  3850 0    50   ~ 0
+Text Label 700  3650 0    50   ~ 0
 spinor_mosi
 $Comp
 L Device:R R10
@@ -1614,7 +1614,7 @@ F 3 "" H 5300 7400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 7300 5300 7400
-Text Label 2850 750  3    50   ~ 0
+Text Label 2750 750  3    50   ~ 0
 dvdd_nodie
 Wire Wire Line
 	5300 7000 5300 6650
