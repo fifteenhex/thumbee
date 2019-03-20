@@ -15,3 +15,5 @@ Pinout foobar #2. avdd_nodie and dvdd_nodie are swapped. *edit* Maybe not. Seems
 mistake. Pinout in the pin diagram is correct *edit* 
 
 Pinout foobar #3. spi mosi and spi miso are swapped
+
+Holtek USB->Serial chip is a piece of shit and can't handle lower baud rate data before data at the baud read the port was opened with.
