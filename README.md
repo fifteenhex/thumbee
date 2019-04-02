@@ -16,4 +16,11 @@ mistake. Pinout in the pin diagram is correct *edit*
 
 Pinout foobar #3. spi mosi and spi miso are swapped
 
-Holtek USB->Serial chip is a piece of shit and can't handle lower baud rate data before data at the baud read the port was opened with.
+Holtek USB->Serial chip is a piece of shit and can't handle lower baud rate data before data at the 
+baud read the port was opened with.
+
+
+1.8v supply is no good. The chip is very sensitive to the 1.8v rail dropping slightly (probably because
+the DDR gets corrupted when it happens). On boot up the 1.8v drops for a split second and this makes
+bootup hit or miss. Removing the 3.3va ldo and wiring 3.3va to 3.3v allows the input voltage to be lowered
+to ~3.5v from the intended 5v and that makes the drop smaller.  
