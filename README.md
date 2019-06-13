@@ -1,3 +1,6 @@
+This is dead. Look at https://github.com/fifteenhex/breadbee instead. It actually works. :D
+
+
 # thumbee
 MStar MSC313E SoC breakout
 
